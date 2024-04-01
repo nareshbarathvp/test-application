@@ -1,0 +1,34 @@
+.card {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+li {
+    list-style-type: none;
+    cursor: pointer;
+    margin: 10px 0;
+    border: none;
+}
+
+.li-hover:hover {
+    font-size: large;
+    font-weight: bolder;
+}
+
+.quiz-header{
+    font-family: cursive;
+    font-style: italic   
+}
+.score{
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.question-remaining{
+    font-style: italic;
+    font-size: large;
+}
+.question{
+    font-weight: bolder;
+    font-family: Impact;
+}

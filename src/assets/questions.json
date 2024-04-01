@@ -1,0 +1,184 @@
+{
+    "questions": [
+        {
+            "questionText": "Who invented facebook?",
+            "options": [
+                {
+                    "text": "Mark Zuckerberg",
+                    "correct": true
+                },
+                {
+                    "text": "Steven Paul Jobs"
+                },
+                {
+                    "text": "Pichai Sundararajan"
+                },
+                {
+                    "text": "Satya Narayana Nadella"
+                }
+            ]
+        },
+        {
+            "questionText": "Probiotic curd (Yogurt) contains health benefiting good",
+            "options": [
+                {
+                    "text": "bacteria",
+                    "correct": true
+                },
+                {
+                    "text": "antibiotics"
+                },
+                {
+                    "text": "transgenic genes"
+                },
+                {
+                    "text": "source of energy"
+                }
+            ]
+        },
+        {
+            "questionText": "Reaction of alcohol, with carboxylic acid is known as:",
+            "options": [
+                {
+                    "text": "Substitution reaction"
+                },
+                {
+                    "text": "Addition reaction"
+                },
+                {
+                    "text": "Hydrogenation"
+                },
+                {
+                    "text": "Esterification",
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "questionText": "Since 1983, the RBI's responsibility with respect to regional rural banks was transferred to?",
+            "options": [
+                {
+                    "text": "SBI."
+                },
+                {
+                    "text": "NABARD",
+                    "correct": true
+                },
+                {
+                    "text": "HDFC"
+                },
+                {
+                    "text": "ICICI"
+                }
+            ]
+        },
+        {
+            "questionText": "The Jatakas are a collection of stories:",
+            "options": [
+                {
+                    "text": "About Jains saints"
+                },
+                {
+                    "text": "Pertaining to several different earlier births of the Buddha",
+                    "correct": true
+                },
+                {
+                    "text": "Based on pet Hindu myths"
+                },
+                {
+                    "text": "Meant for children"
+                }
+            ]
+        },
+        {
+            "questionText": "In which of these does a class take parameters?",
+            "options": [
+                {
+                    "text": "constructor",
+                    "correct": true
+                },
+                {
+                    "text": "destructor"
+                },
+                {
+                    "text": "import"
+                },
+                {
+                    "text": "subscribe"
+                }
+            ]
+        },
+        {
+            "questionText": "Which is NOT an access modifier?",
+            "options": [
+                {
+                    "text": "private"
+                },
+                {
+                    "text": "protected"
+                },
+                {
+                    "text": "public"
+                },
+                {
+                    "text": "async",
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "questionText": "Which keyword allows us to share information between files in TypeScript?",
+            "options": [
+                {
+                    "text": "import"
+                },
+                {
+                    "text": "export",
+                    "correct": true
+                },
+                {
+                    "text": "async"
+                },
+                {
+                    "text": "constructor"
+                }
+            ]
+        },
+        {
+            "questionText": "Which is an array method to generate a new array based on a condition?",
+            "options": [
+                {
+                    "text": "filter",
+                    "correct": true
+                },
+                {
+                    "text": "map"
+                },
+                {
+                    "text": "async"
+                },
+                {
+                    "text": "enum"
+                }
+            ]
+        },
+        {
+            "questionText": "How is a property accessible within a class?",
+            "options": [
+                {
+                    "text": "Using this.propertyName",
+                    "correct": true
+                },
+                {
+                    "text": "Accessors"
+                },
+                {
+                    "text": "Destructuring"
+                },
+                {
+                    "text": "Arrow function"
+                }
+            ]
+        }
+    ]
+}

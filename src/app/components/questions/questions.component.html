@@ -1,0 +1,73 @@
+<div class="container mt-5 bg-secondary">
+    <div class="card bg-dark text-white">
+        <div class="d-flex justify-content-between p-3">
+            <div class="image">
+                <img
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Angular_full_color_logo.svg/1200px-Angular_full_color_logo.svg.png"
+                    width="90" alt="logo">
+            </div>
+            <div class="quiz-header">
+                <h4>Online test!</h4>
+                <span>Welcome {{name}}</span>
+            </div>
+        </div>
+
+        <ng-container *ngIf="!isQuizCompleted">
+            <div class="d-flex justify-content-around py-3">
+                <div class="score">
+                    <h5>{{points}} Points</h5>
+                </div>
+                <div class="question-remaining">
+                    <span>Question
+                        {{currentQuestion+1}} of {{questionList.length}}</span>
+                </div>
+                <div>
+                    <h5>{{counter}} sec ⏱</h5>
+                </div>
+            </div>
+            <div class="progress mb-3">
+                <div class="progress-bar progress-bar-striped bg-success"
+                    role="progressbar" [ngStyle]="{'width':progress+'%'}"
+                    aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                </div>
+            </div>
+            <div class="question">
+                <div class="card">
+                    <h3>{{questionList[currentQuestion]?.questionText}}</h3>
+                </div>
+            </div>
+            <br>
+            <div class="options">
+                <ul
+                    *ngFor="let option of questionList[currentQuestion]?.options"
+                    class="list-group">
+                    <div appOptionValidate [isCorrect]="option.correct" class="rounded">
+                        <li (click)="answer(currentQuestion+1,option)"
+                            class="list-group-item li-hover" appOptionValidate
+                            [isCorrect]="option.correct">
+                            {{option.text}}
+                        </li>
+                    </div>
+
+                </ul>
+            </div>
+        </ng-container>
+
+        <ng-container *ngIf="isQuizCompleted">
+            <div class="row d-flex justify-content-between">
+                <img style="width: 40%;" class="img-fluid col-sm-12 mx-auto"
+                    src="https://cdn2.iconfinder.com/data/icons/greenline/512/check-512.png"
+                    alt>
+                <div class="result text-center col-md-6 col-sm-12">
+                    <h3>You have completed the test. <br>
+                        Result:</h3>
+                    <p>Total Question Attempted : {{questionList.length}} </p>
+                    <p>Total Correct Answered : {{correctAnswer}} </p>
+                    <p>Total Wrong Answered : {{inCorrectAnswer}} </p>
+                    <p>Your Score : {{points}} Points </p>
+                </div>
+            </div>
+        </ng-container>
+
+    </div>
+</div>

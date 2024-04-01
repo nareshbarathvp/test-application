@@ -1,0 +1,20 @@
+<br>
+<div class="container bg-dark py-5 text-white">
+    <h1 class="display-5 fw-bold text-center">Welocme to the Online Test
+        Application</h1>
+    <br>
+    <p class="col-md-8 fs-4">The test contains a total of 10 questions</p>
+    <h4>Rules:</h4>
+    <ul class="list-group">
+        <li class="list-group-item">Correct answers gives you 10 points</li>
+        <li class="list-group-item">No negative marking for wrong answers</li>
+        <li class="list-group-item">There will be 60 seconds per question</li>
+        <li class="list-group-item">Do not refresh the page while taking the test</li>
+    </ul>
+    <h1 class="all-the-best">All the best!!</h1>
+    <div class="name col-md-4 my-3">
+        <label for>Enter your name :</label>
+        <input #name type="text" class="form-control" required>
+    </div>
+    <button class="btn btn-secondary btn-lg" (click)="startTest()">Start the Quiz!!</button>
+</div>
